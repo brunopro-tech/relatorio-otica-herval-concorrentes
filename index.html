@@ -175,7 +175,7 @@
   a { color: var(--accent); }
 
   .wrap {
-    max-width: 960px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 28px 96px;
   }
@@ -256,7 +256,7 @@
 
   .hero-inner {
     position: relative;
-    max-width: 960px;
+    max-width: 1280px;
     margin: 0 auto;
   }
 
@@ -334,6 +334,7 @@
     color: var(--text-muted);
     font-size: 1.3rem;
     margin: 0;
+    max-width: 72ch;
   }
 
   /* ---------- Stat strip ---------- */
@@ -439,6 +440,7 @@
     margin-top: 18px;
     font-size: 1.12rem;
     color: var(--text-faint);
+    max-width: 72ch;
   }
 
   /* ---------- Offer cards ---------- */
@@ -639,6 +641,10 @@
     gap: 4px 24px;
   }
 
+  @media (min-width: 1100px) {
+    .oticas-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+
   .oticas-grid.is-active-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 4px 28px;
@@ -778,6 +784,8 @@
     }
     .bar-value { text-align: left; font-size: 1.4rem; }
     .card { padding: 20px 20px 18px; }
+    .otica-links a { font-size: 1.1rem; }
+    .ig-flag, .ig-followers { font-size: 1.05rem; }
   }
 </style>
 
