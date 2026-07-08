@@ -697,6 +697,14 @@
     font-style: italic;
   }
 
+  .ig-followers {
+    font-size: 0.92rem;
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ig-followers::before { content: "· "; }
+
   /* ---------- Callout ---------- */
 
   .callout-pair {
@@ -777,9 +785,9 @@
   <div class="hero-inner">
     <div class="eyebrow hero-anim d1">Inteligência competitiva · Meta Ads</div>
     <h1 class="hero-anim d2">O que as óticas de Maringá estão anunciando agora</h1>
-    <p class="hero-sub hero-anim d3">Levantamento de anúncios ativos no Facebook e Instagram de concorrentes da Ótica Herval — preços, ofertas e ângulos de aquisição em uso na cidade.</p>
+    <p class="hero-sub hero-anim d3">Levantamento de anúncios ativos no Facebook e Instagram de concorrentes da Ótica Herval Select — preços, ofertas e ângulos de aquisição em uso na cidade.</p>
     <div class="meta-row hero-anim d4">
-      <span><strong>Preparado para</strong> Ótica Herval</span>
+      <span><strong>Preparado para</strong> Ótica Herval Select</span>
       <span><strong>Coleta</strong> 07 de julho de 2026</span>
       <span><strong>Fonte</strong> Meta Ad Library</span>
       <span><strong>Por</strong> Bruno Sato · @brunopro.tech</span>
@@ -823,85 +831,85 @@
       <span><i class="dot dot--active"></i>Anunciam ativamente no Meta hoje — 24%</span>
       <span><i class="dot dot--inactive"></i>Sem anúncio confirmado — 76%</span>
     </div>
-    <p class="chart-foot">3 em cada 4 óticas de Maringá ainda não usam tráfego pago — quem já investe, como a Herval, tem uma janela de vantagem antes que isso vire padrão do setor.</p>
+    <p class="chart-foot">3 em cada 4 óticas de Maringá ainda não usam tráfego pago — quem já investe, como a Herval Select, tem uma janela de vantagem antes que isso vire padrão do setor.</p>
   </section>
 
   <section class="bg-grid reveal">
     <div class="section-head">
       <h2>Lista completa — as 70 óticas mapeadas</h2>
-      <p class="section-note">Censo via Google Maps, cruzado com a Ad Library nome a nome. Ponto dourado = anuncia pago hoje. Instagram encontrado via busca na web para 41 de 70 — "(confirmar)" marca perfis de confiança média (nome bate, mas a cidade não foi 100% confirmada na bio).</p>
+      <p class="section-note">Censo via Google Maps, cruzado com a Ad Library nome a nome. Ponto dourado = anuncia pago hoje. Instagram encontrado via busca na web para 41 de 70 (seguidores via Apify) — "(confirmar)" marca perfis de confiança média (nome bate, mas a cidade não foi 100% confirmada na bio). <strong>Correção 08/07:</strong> o Instagram do cliente é "Ótica Herval Select" (@oticahervalselect) — nome diferente do Facebook/Ad Library ("Ótica Herval"); o perfil errado atribuído antes era de outra ótica.</p>
     </div>
     <div class="oticas-grid">
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>99 Óticas Maringá</div><div class="otica-links"><a href="https://www.instagram.com/99oticasmaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Audi-Viso</div><div class="otica-links"><a href="https://www.instagram.com/audiviso/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>99 Óticas Maringá</div><div class="otica-links"><a href="https://www.instagram.com/99oticasmaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">7.705 seguidores</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Audi-Viso</div><div class="otica-links"><a href="https://www.instagram.com/audiviso/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.718 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>BXT Ótica</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Bali Óticas</div><div class="otica-links"><a href="https://www.instagram.com/balioticasmaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Bali Óticas</div><div class="otica-links"><a href="https://www.instagram.com/balioticasmaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.035 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Boutique Do Óculos</div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Casa das Armações</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Casa do Óculos</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Centro Ótica</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Chilli Beans</div><div class="otica-links"><a href="https://www.instagram.com/chillibeansmgapark/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Engenheiro dos Óculos</div><div class="otica-links"><a href="https://www.instagram.com/engenheiro.dosoculos/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Chilli Beans</div><div class="otica-links"><a href="https://www.instagram.com/chillibeansmgapark/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">3.385 seguidores</span> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Engenheiro dos Óculos</div><div class="otica-links"><a href="https://www.instagram.com/engenheiro.dosoculosmaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.416 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Fenzzo</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Hospital dos Óculos Maringá</div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Instituto dos Óculos</div><div class="otica-links"><a href="https://www.instagram.com/institutodosoculos.maringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Instituto dos Óculos</div><div class="otica-links"><a href="https://www.instagram.com/institutodosoculos.maringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">6.015 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>M G E Ótica</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Massao Joalheiro</div><div class="otica-links"><a href="https://www.instagram.com/massaojoalheiro/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Mercadão dos Óculos (Muffato)</div><div class="otica-links"><a href="https://www.instagram.com/mercadaodosoculos_muffato/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Massao Joalheiro</div><div class="otica-links"><a href="https://www.instagram.com/massaojoalheiro/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">8.277 seguidores</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Mercadão dos Óculos (Muffato)</div><div class="otica-links"><a href="https://www.instagram.com/mercadaodosoculos_muffato/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">8.782 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>NE Ótica Jóias e Relógio</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>O Lentes</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Rei do Óculos</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Solevo Occhiali</div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Tecno Ótica</div><div class="otica-links"><a href="https://www.instagram.com/tecnooticamaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Veritê Ótica</div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Arca</div><div class="otica-links"><a href="https://www.instagram.com/oticaarcamaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Avenida</div><div class="otica-links"><a href="https://www.instagram.com/oticaavenidamga/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Avenida Mauá</div><div class="otica-links"><a href="https://www.instagram.com/oticaavenidamaua/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Beatriz</div><div class="otica-links"><a href="https://www.instagram.com/oticasbeatriz/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Center</div><div class="otica-links"><a href="https://www.instagram.com/oticacenter.oficial/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Arca</div><div class="otica-links"><a href="https://www.instagram.com/oticaarcamaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">8.713 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Avenida</div><div class="otica-links"><a href="https://www.instagram.com/oticaavenidamga/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.535 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Avenida Mauá</div><div class="otica-links"><a href="https://www.instagram.com/oticaavenidamaua/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">9.242 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Beatriz</div><div class="otica-links"><a href="https://www.instagram.com/oticasbeatriz/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">2.450 seguidores</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Center</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Classic</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Comercial</div><div class="otica-links"><a href="https://www.instagram.com/oticacomercialavparana/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Comercial</div><div class="otica-links"><a href="https://www.instagram.com/oticacomercialavparana/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.404 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Cristalina</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Diamante</div><div class="otica-links"><a href="https://www.instagram.com/oticadiamantemaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Díspar</div><div class="otica-links"><a href="https://www.instagram.com/oticadispar/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Elegance</div><div class="otica-links"><a href="https://www.instagram.com/oticaelegance/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Especialista</div><div class="otica-links"><a href="https://www.instagram.com/especialistamga/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Exata</div><div class="otica-links"><a href="https://www.instagram.com/exataoticamga/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Focal</div><div class="otica-links"><a href="https://www.instagram.com/focal_otica/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Gouveia</div><div class="otica-links"><a href="https://www.instagram.com/gouveiaotica/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Herval</div><div class="otica-links"><a href="https://www.instagram.com/oticaherval/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Iris</div><div class="otica-links"><a href="https://www.instagram.com/oticairismaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Lavisu</div><div class="otica-links"><a href="https://www.instagram.com/oticalavisu/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Diamante</div><div class="otica-links"><a href="https://www.instagram.com/oticadiamantemaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">3.795 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Díspar</div><div class="otica-links"><a href="https://www.instagram.com/oticadispar/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">7.307 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Elegance</div><div class="otica-links"><a href="https://www.instagram.com/oticaelegance/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">4.248 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Especialista</div><div class="otica-links"><a href="https://www.instagram.com/especialistamga/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">3.704 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Exata</div><div class="otica-links"><a href="https://www.instagram.com/exataoticamga/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.424 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Focal</div><div class="otica-links"><a href="https://www.instagram.com/focal_otica/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">286 seguidores</span> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Gouveia</div><div class="otica-links"><a href="https://www.instagram.com/gouveiaotica/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">849 seguidores</span> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Herval Select</div><div class="otica-links"><a href="https://www.instagram.com/oticahervalselect/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.555 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Iris</div><div class="otica-links"><a href="https://www.instagram.com/oticairismaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.270 seguidores</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Lavisu</div><div class="otica-links"><a href="https://www.instagram.com/oticalavisumaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">2.108 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Le Monde</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Leonel</div><div class="otica-links"><a href="https://www.instagram.com/oticaleonel/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Liderança</div><div class="otica-links"><a href="https://www.instagram.com/oticalideranca/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Luiza</div><div class="otica-links"><a href="https://www.instagram.com/oticaluizamga/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Líder Maringá</div><div class="otica-links"><a href="https://www.instagram.com/oticaliderpr/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Leonel</div><div class="otica-links"><a href="https://www.instagram.com/oticaleonel/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">2.801 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Liderança</div><div class="otica-links"><a href="https://www.instagram.com/oticalideranca/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">79 seguidores</span> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Luiza</div><div class="otica-links"><a href="https://www.instagram.com/oticaluizamga/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">2.555 seguidores</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Líder Maringá</div><div class="otica-links"><a href="https://www.instagram.com/oticaliderpr/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">782 seguidores</span> <span class="ig-flag">(confirmar)</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Mara Visão</div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Maringá</div><div class="otica-links"><a href="https://www.instagram.com/oticamaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Maringá</div><div class="otica-links"><a href="https://www.instagram.com/oticamaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">11.776 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Modelo</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Móvel</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Nagao</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Ouro Branco</div><div class="otica-links"><a href="https://www.instagram.com/otica_ourobranco/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-flag">(confirmar)</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Ouro Branco</div><div class="otica-links"><a href="https://www.instagram.com/otica_ourobranco/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">3.127 seguidores</span> <span class="ig-flag">(confirmar)</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Roose</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Rubi</div><div class="otica-links"><a href="https://www.instagram.com/oticarubimaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Stilo</div><div class="otica-links"><a href="https://www.instagram.com/oticastilomaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Rubi</div><div class="otica-links"><a href="https://www.instagram.com/oticarubimaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">3.024 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Stilo</div><div class="otica-links"><a href="https://www.instagram.com/oticastilomaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.749 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Supervisão</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Tamiozzo</div><div class="otica-links"><a href="https://www.instagram.com/oticatamiozzo/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Tiradentes</div><div class="otica-links"><a href="https://www.instagram.com/tiradentesotica/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Tamiozzo</div><div class="otica-links"><a href="https://www.instagram.com/oticatamiozzo/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.134 seguidores</span></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Tiradentes</div><div class="otica-links"><a href="https://www.instagram.com/tiradentesotica/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.087 seguidores</span></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Ótica Vespucci</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Vip</div><div class="otica-links"><a href="https://www.instagram.com/oticavip.maringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Vip</div><div class="otica-links"><a href="https://www.instagram.com/oticavip.maringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">1.239 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Visalis</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Visão</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Vitória</div><div class="otica-links"><a href="https://www.instagram.com/oticavitoriamaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica Vitória</div><div class="otica-links"><a href="https://www.instagram.com/oticavitoriamaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">343 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Ótica e Relojoaria Pérola</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas Carol</div><div class="otica-links"><a href="https://www.instagram.com/oticascarolmaringaa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas Carol</div><div class="otica-links"><a href="https://www.instagram.com/oticascarolmaringaa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">482 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas Carolina</div></div>
-        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas Diniz</div><div class="otica-links"><a href="https://www.instagram.com/oticasdinizmaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas Diniz</div><div class="otica-links"><a href="https://www.instagram.com/oticasdinizmaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">48.319 seguidores</span></div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas Smart Blue</div></div>
         <div class="otica-item"><div class="otica-top"><i class="dot dot--inactive"></i>Óticas São Bento</div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Óticas Vittae</div><div class="otica-links"><a href="https://www.instagram.com/oticas_vittae/" target="_blank" rel="noopener">Instagram →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Óticas Ética</div><div class="otica-links"><a href="https://www.instagram.com/oticaseticamaringa/" target="_blank" rel="noopener">Instagram →</a></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Óticas Vittae</div><div class="otica-links"><a href="https://www.instagram.com/oticas_vittae/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">9.186 seguidores</span></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i>Óticas Ética</div><div class="otica-links"><a href="https://www.instagram.com/oticaseticamaringa/" target="_blank" rel="noopener">Instagram →</a> <span class="ig-followers">9.418 seguidores</span></div></div>
     </div>
   </section>
 
@@ -921,7 +929,7 @@
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Veritê Ótica</strong><span class="otica-obs">Exame de vista R$39,90</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=405345550022603&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Arca</strong><span class="otica-obs">Visão simples R$199 — foco em joalheria</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=100424329142157&amp;search_type=page" target="_blank" rel="noopener">Biblioteca (Londrina) →</a><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=921569964670972&amp;search_type=page" target="_blank" rel="noopener">Biblioteca (Maringá) →</a></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Center</strong><span class="otica-obs">Exame de vista R$120→R$80</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=860953060424875&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a></div></div>
-        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Herval</strong><span class="otica-obs">Óculos completo R$399,90 — cliente</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=106623248832103&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a></div></div>
+        <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Herval Select</strong><span class="otica-obs">Óculos completo R$399,90 — cliente</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=106623248832103&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a> <span class="ig-flag">(no Facebook: "Ótica Herval")</span></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Lavisu</strong><span class="otica-obs">Óculos completo R$199</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=942267048973285&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Líder Maringá</strong><span class="otica-obs">R$79,90–990, incl. multifocal ~R$495/par</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=1472392269708281&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a></div></div>
         <div class="otica-item is-active"><div class="otica-top"><i class="dot dot--active"></i><strong>Ótica Maringá</strong><span class="otica-obs">Só anúncios de marca, sem preço</span></div><div class="otica-links"><a href="https://www.facebook.com/ads/library/?active_status=active&amp;ad_type=all&amp;country=BR&amp;view_all_page_id=100617235100240&amp;search_type=page" target="_blank" rel="noopener">Biblioteca de anúncios →</a></div></div>
@@ -1002,7 +1010,7 @@
         <div class="bar-value">3%</div>
       </div>
     </div>
-    <p class="chart-foot">WhatsApp é disparado o canal de conversão dominante (38%) entre quem configura CTA — mas <strong>40% dos anúncios do setor não têm CTA estruturado nenhum</strong>, um erro básico de configuração que a Herval pode evitar sistematicamente.</p>
+    <p class="chart-foot">WhatsApp é disparado o canal de conversão dominante (38%) entre quem configura CTA — mas <strong>40% dos anúncios do setor não têm CTA estruturado nenhum</strong>, um erro básico de configuração ainda comum entre os concorrentes.</p>
   </section>
 
   <section class="bg-mesh tight reveal">
@@ -1020,7 +1028,7 @@
         <div class="cal-name">Compra em qualquer loja → cupom para concorrer → seguir o perfil da loja → comentar marcando 3 amigos. Não é sorteio grátis: é recompensa amarrada a uma compra já feita, e gera prova social + tráfego de perfil de brinde.</div>
       </div>
     </div>
-    <p class="chart-foot">Tática ainda pouco explorada no setor local — pode valer um teste da Herval, vinculando o sorteio a uma compra real (não a um simples "siga e marque amigos").</p>
+    <p class="chart-foot">Tática ainda pouco explorada no setor local — pode valer um teste da Herval Select, vinculando o sorteio a uma compra real (não a um simples "siga e marque amigos").</p>
   </section>
 
   <section class="bg-lens alt reveal">
@@ -1065,7 +1073,7 @@
         <div class="bar-value">R$249</div>
       </div>
       <div class="bar-row is-you">
-        <div class="bar-name">Otica Herval — você<span class="bar-tag">óculos completo, lente não especificada, 6x sem juros</span></div>
+        <div class="bar-name">Ótica Herval Select — você<span class="bar-tag">óculos completo, lente não especificada, 6x sem juros</span></div>
         <div class="bar-track"><div class="bar-fill" style="--w:66.6%"></div></div>
         <div class="bar-value">R$399,90</div>
       </div>
@@ -1075,7 +1083,7 @@
         <div class="bar-value">R$600</div>
       </div>
     </div>
-    <p class="chart-foot">Com o censo completo, a Herval deixa de ser o preço mais alto do grupo — a Audi-Viso (rede regional, serviço combinado auditivo+visual) anuncia ainda mais caro. Instituto dos Óculos comunica "10x de R$24,90" (parece mais barato que os R$99 avulsos da 99 Óticas) mas o total é R$249 — tática de ancoragem pela parcela, não preço-piso real. <strong>Atenção:</strong> quase nenhum anúncio informa o tipo de lente — só Ótica Arca (visão simples) e Instituto dos Óculos (monofocal) deixam isso explícito. Comparar preço sem saber o tipo de lente é comparar produtos diferentes.</p>
+    <p class="chart-foot">Com o censo completo, a Herval Select deixa de ser o preço mais alto do grupo — a Audi-Viso (rede regional, serviço combinado auditivo+visual) anuncia ainda mais caro. Instituto dos Óculos comunica "10x de R$24,90" (parece mais barato que os R$99 avulsos da 99 Óticas) mas o total é R$249 — tática de ancoragem pela parcela, não preço-piso real. <strong>Atenção:</strong> quase nenhum anúncio informa o tipo de lente — só Ótica Arca (visão simples) e Instituto dos Óculos (monofocal) deixam isso explícito. Comparar preço sem saber o tipo de lente é comparar produtos diferentes.</p>
   </section>
 
   <section class="bg-waves alt tight reveal">
@@ -1093,7 +1101,7 @@
         <div class="cal-name">Instituto dos Óculos — 2 óculos completos com lentes multifocais digitais. Total R$699 em 10x de R$69,90.</div>
       </div>
     </div>
-    <p class="chart-foot">Nenhuma das duas é diretamente comparável ao R$399,90 da Herval sem saber se o produto dela é monofocal ou multifocal — essa é a pergunta mais importante para posicionar o preço corretamente com o cliente.</p>
+    <p class="chart-foot">Nenhuma das duas é diretamente comparável ao R$399,90 da Herval Select sem saber se o produto dela é monofocal ou multifocal — essa é a pergunta mais importante para posicionar o preço corretamente com o cliente.</p>
   </section>
 
   <section class="bg-grid alt reveal">
@@ -1105,7 +1113,7 @@
 
       <div class="card is-you" style="--i:0">
         <div class="card-top">
-          <div class="card-name">Otica Herval</div>
+          <div class="card-name">Ótica Herval Select</div>
           <div class="pill you">Seu negócio</div>
         </div>
         <div class="card-price">R$399,90</div>
@@ -1219,7 +1227,7 @@
   <section class="bg-dots alt tight reveal">
     <div class="section-head">
       <h2>Isca de topo de funil: exame de vista</h2>
-      <p class="section-note">Três concorrentes menores usam exame com desconto para captar contato — a Herval não anuncia esse gancho hoje.</p>
+      <p class="section-note">Três concorrentes menores usam exame com desconto para captar contato — a Herval Select não anuncia esse gancho hoje.</p>
     </div>
     <div class="callout-pair callout-trio">
       <div class="callout" style="--i:0">
@@ -1276,11 +1284,11 @@
       </div>
       <div class="insight" style="--i:2">
         <div class="insight-rule"></div>
-        <p><strong>Parcelamento como âncora de percepção:</strong> Instituto dos Óculos comunica "10x de R$24,90" — soa mais barato que os R$99 avulsos da 99 Óticas, mas o total é R$249. Vale considerar comunicar o R$399,90 da Herval também por parcela.</p>
+        <p><strong>Parcelamento como âncora de percepção:</strong> Instituto dos Óculos comunica "10x de R$24,90" — soa mais barato que os R$99 avulsos da 99 Óticas, mas o total é R$249. Vale considerar comunicar o R$399,90 da Herval Select também por parcela.</p>
       </div>
       <div class="insight" style="--i:3">
         <div class="insight-rule"></div>
-        <p><strong>Isca de exame de vista:</strong> Ótica Center, Veritê Ótica e Óticas Vittae usam exame com desconto (R$39,80–80) como porta de entrada — um ângulo de baixo custo por lead que a Herval ainda não explora.</p>
+        <p><strong>Isca de exame de vista:</strong> Ótica Center, Veritê Ótica e Óticas Vittae usam exame com desconto (R$39,80–80) como porta de entrada — um ângulo de baixo custo por lead que a Herval Select ainda não explora.</p>
       </div>
       <div class="insight" style="--i:4">
         <div class="insight-rule"></div>
@@ -1304,7 +1312,7 @@
       </div>
       <div class="insight" style="--i:9">
         <div class="insight-rule"></div>
-        <p><strong>Erro de configuração básico e recorrente:</strong> 40% dos anúncios do setor rodam sem nenhum CTA estruturado (só imagem/vídeo, sem botão de ação). Garantir 100% das campanhas da Herval com CTA de WhatsApp ou compra é uma vantagem simples de executar.</p>
+        <p><strong>Erro de configuração básico e recorrente:</strong> 40% dos anúncios do setor rodam sem nenhum CTA estruturado (só imagem/vídeo, sem botão de ação) — a Herval Select já configura CTA nas próprias campanhas, então essa é uma vulnerabilidade da concorrência, não um ajuste pendente da casa.</p>
       </div>
     </div>
   </section>
